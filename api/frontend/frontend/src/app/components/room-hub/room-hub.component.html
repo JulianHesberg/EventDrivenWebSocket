@@ -1,0 +1,5 @@
+<h1>Welcome To the Room Hub!</h1>
+<h2>Please select a room to join</h2>
+<div class="container" *ngFor="let room of chatRooms">
+  <room-select [room]="room"></room-select>
+</div>

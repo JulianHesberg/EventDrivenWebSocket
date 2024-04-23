@@ -1,0 +1,4 @@
+<h1>Welcome to a Chat Website</h1>
+<h2>Please choose a nickname to start chatting</h2>
+<input [formControl]="username" type = "text">
+<button (click)="clickStartChatting(username.value!)" [disabled]="formGroup.invalid">Start Chatting!</button>
